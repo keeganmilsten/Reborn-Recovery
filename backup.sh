@@ -48,7 +48,7 @@ SAVING=$(sed '1q;d' /tmp/saving.txt)
 
 yad --form --center --title "Samba File Share" --width=400 \
 --field="Folder to Save Package Lists To::RO" "$SAVING" \
---field='Create Packge List:FBTN' '@bash -c "Save"' \
+--field='Create Package List:FBTN' '@bash -c "Save"' \
 --field='Recover Packages From List:FBTN' 'xterm -e "Recover"' \
 --button='gtk-quit:1'
 rm /tmp/saving.txt
