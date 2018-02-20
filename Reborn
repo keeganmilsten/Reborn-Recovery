@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Reborn Recovery
+Comment=Recover Your Operating System's Packages
+Icon=/usr/share/icons/default/reborn-updates.svg
+Exec=gksudo backup.sh
+NoDisplay=false
+Categories=Utility;
+Keywords=reborn, backup, manager, recover, recovery
+StartupNotify=true
+Terminal=false
